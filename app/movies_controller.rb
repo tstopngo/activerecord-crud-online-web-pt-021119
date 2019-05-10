@@ -39,7 +39,7 @@ def can_be_created_in_a_block(args = {:title => "Home Alone", :release_date => 1
     m.director = args[:director]
     m.lead = args[:lead]
     m.in_theaters = args[:in_theaters]
-    binding.pry
+    m
   end
 end
 
